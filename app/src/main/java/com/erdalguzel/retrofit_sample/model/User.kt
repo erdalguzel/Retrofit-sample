@@ -1,4 +1,9 @@
 package com.erdalguzel.retrofit_sample.model
 
-class User {
-}
+import com.google.gson.annotations.SerializedName
+
+data class User(
+    @SerializedName("name") val name: String,
+    @SerializedName("username") val username: String,
+    @SerializedName("email") val email: String
+)
