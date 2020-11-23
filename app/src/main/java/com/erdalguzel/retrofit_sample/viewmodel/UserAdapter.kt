@@ -27,6 +27,11 @@ class UserAdapter(private val users: List<User>) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val view = inflater.inflate(R.layout.item_row, parent, false)
+
+        view.setOnClickListener {
+            // Handle row click here
+
+        }
         return UserViewHolder(view)
     }
 

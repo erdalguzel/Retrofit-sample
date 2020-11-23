@@ -3,4 +3,6 @@
     <string name="users_real_name">This is users real name</string>
     <string name="username">This is username</string>
     <string name="email_address">This is user\'s email address</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
