@@ -1,4 +1,4 @@
-package com.erdalguzel.retrofit_sample.`interface`
+package com.erdalguzel.retrofit_sample.service
 
 import com.erdalguzel.retrofit_sample.model.User
 import retrofit2.Call

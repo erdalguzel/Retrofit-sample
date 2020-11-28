@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.erdalguzel.retrofit_sample.R
 import com.erdalguzel.retrofit_sample.RetrofitClient
-import com.erdalguzel.retrofit_sample.`interface`.OnGetUsers
+import com.erdalguzel.retrofit_sample.service.OnGetUsers
 import com.erdalguzel.retrofit_sample.model.User
 import com.erdalguzel.retrofit_sample.viewmodel.UserAdapter
 import com.google.android.material.snackbar.Snackbar
@@ -36,7 +36,6 @@ class MainFragment : Fragment() {
             override fun onFailure(call: Call<List<User>>, t: Throwable) {
                 Snackbar.make(recyclerView, "Unable to load users", Snackbar.LENGTH_SHORT).show()
             }
-
         })
     }
 
